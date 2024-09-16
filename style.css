@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image:url("amazon_logo.png");
+    height:50px;
+    width:100%;
+    background-size: cover;
+    
+
+}
+
+
+.border{
+   border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.add
+.add-first{
+    font-size: 1rem;
+    margin-left: 15px;
+    display:flex;
+    justify-content: left;
+}
+.add-second{
+    font-size:1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+.nav-search{
+    display:flex;
+    
+    background-color:#0f1111;
+    
+    width:620px;
+    height:40px;
+    border-radius:3px;
+}
+.search-select{
+    background-color: aliceblue;
+    text-align:center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius:3px;
+    border:none;
+}
+.search-blank{
+    width:500px;
+    border:none;
+    font-size:1rem;
+}
+.search-icon{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width :40px;
+    background-color:#febd68;
+    border-radius: 3px;
+    color:#0f1111;
+
+
+}
+.sign-in{
+    
+}
+.sign{
+    font-size: 0.70rem;
+}
+.lx{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+.nav-search:hover{
+    border:2px solid sandybrown;
+}
+.nav-cart{
+    width:38px;
+    display:flex;
+    font-weight:700px;
+}
+.pannel{
+    height:40px;
+    background-color:#222f3d;
+    display:flex;
+    color:antiquewhite;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.panel-ops p{
+    display:inline;
+    padding:10px;
+}
+.panel-ops{
+    width:70%;
+}
+.pannel-deals{
+    font-weight:700;
+}
+.hero-section{
+    background-image:url("hero_image (1).jpg") ;
+    
+    height:600px;
+    background-size: cover;
+}
+.hero-msg{
+    height:40px;
+    background-color: aliceblue;
+    color:black;
+    display:flex;
+    justify:center;
+    align-items: center;
+}
+
